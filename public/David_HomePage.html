@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="David_HomePage.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="search_bar.css">
+
+</head>
+
+<body>
+
+    <div class="videoContainer">
+        <video poster="thumbnail_david.png" autoplay="true" loop>
+            <source src="david_background.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">
+            <div class="mainTitle">
+                <a href="https://twitter.com/David_Meme_Mech" target="_blank">
+                    <h1>David The Sentient Meme Machine</h1>
+                </a>
+            </div>
+            <div class="prompt">
+                <h3>Hit the search button and tell me what gif tags to post, then Hit ENTER</h3>
+            </div>
+            <form action="/giphy_tag" method="post">
+                <div class="container">
+                    <div class="search-box">
+                        <input type="text" id="giphy_tag" name="giphy_tag" placeholder="e.g superman">
+                        <span></span>
+                    </div>
+                </div>
+            </form>
+            <div class="powered_by">
+                <a href="https://giphy.com/" target="_blank"> <img src="powered_by_giphy.gif" alt="Powered by Giphy"> </a>
+                <a href="https://github.com/N1GHTMVR3/David-The-Sentient-Meme-Machine" target="_blank"><img id="github_repo" src="github-icon.png" alt="Visit the GitHub Repo"></a>
+                <a href="https://twitter.com/David_Meme_Mech" target="_blank"><img id="followDavid" src="Follow_david.png" alt="Follow David"></a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="submit-event.js"></script>
+</body>
+
+</html>

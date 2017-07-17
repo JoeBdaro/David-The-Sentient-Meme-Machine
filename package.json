@@ -1,0 +1,26 @@
+{
+  "name": "david_the_sentient_meme_machine",
+  "version": "1.0.0",
+  "description": "Twitter bot that generates memes and gifs frm giphy api to twitter api",
+  "main": "david_mech.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "twitter",
+    "giphy",
+    "memes",
+    "gifs"
+  ],
+  "author": "Joseph Bdaro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "giphy-api": "^1.2.6",
+    "popups": "^1.1.3",
+    "request": "^2.81.0",
+    "twit": "^2.2.9"
+  }
+}
